@@ -126,7 +126,7 @@ submitBtn.addEventListener("click", () => {
     let flag = isBirthdatePalindrome(dateOfBirth.value);
 
     if (flag) {
-      outputdiv.innerHTML = "yes Your Birthay is Palindrome";
+      outputdiv.innerHTML = "Yey! Your Birthday is Palindrome";
     } else {
       const[dateObj , count ] = findNextPalindromeDate(dateOfBirth.value);
       
